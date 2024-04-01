@@ -1,23 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .fundo {
   background-image: #fff;
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
 .calculadora {
-  position: absolute;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.8);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 12.2%;
   border-radius: 15px;
   padding: 15px;
+  margin: 182px;
+  left:650px;
 }
 
 .botao {
@@ -34,6 +34,24 @@
 
 .botao:hover {
   background-color: black;
+}
+
+
+header {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
 }
 
 #resultado {
